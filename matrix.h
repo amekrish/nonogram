@@ -1,3 +1,5 @@
+#ifndef MATRIX_H
+#define MATRIX_H
 #include <vector>
 class Matrix {
 public:
@@ -31,3 +33,4 @@ private:
   std::vector<std::vector<int>> rowHints;
   std::vector<std::vector<int>> colHints;
 };
+#endif
